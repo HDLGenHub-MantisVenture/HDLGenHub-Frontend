@@ -27,7 +27,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({navbar, children, sidebar}) =>{
     return(
         <div className="flex flex-col w-full h-full">
             <div ref={navbarRef} className="">{navbar}</div>
-            <div className={`min-h-[calc(100vh- ${pageMinHeight})] border-2 border-red-500`}>
+            <div className={`min-h-[calc(100vh- ${pageMinHeight})]`}>
                 <div className="h-full">{sidebar}</div>
                 <div className="w-full h-full">{children}</div>
             </div>
