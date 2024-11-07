@@ -14,15 +14,16 @@ function App() {
   return (
     <>
     <div>
+    <Router>
     <MainLayout navbar={<NavBar/>} 
     children={
-      <Router>
         <Routes>
           <Route path='/' element={<UnderDevelopingPage/>}/>
           <Route path='/login' element={<LoginPage/>}/>
         </Routes>
-      </Router>} 
+      } 
     sidebar={<SideBar/>} />
+    </Router>
     </div>
     </>
   )
