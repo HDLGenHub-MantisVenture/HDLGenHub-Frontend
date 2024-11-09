@@ -6,7 +6,8 @@ const  LoginPage =()=>{
                     <div className="w-1/2 border">
                         <div className="w-full h-full p-24 border border-red-400">
                             <div className="border h-full">
-
+                                <label></label>
+                                <input></input>
                             </div>
                         </div>
                     </div>
