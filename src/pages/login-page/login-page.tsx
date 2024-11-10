@@ -1,3 +1,5 @@
+import { InputField } from "../../mant-ui/input-fields/input-field";
+
 const  LoginPage =()=>{
     return(
             <div className="w-full h-full flex items-center justify-center px-8">
@@ -6,8 +8,8 @@ const  LoginPage =()=>{
                     <div className="w-1/2 border">
                         <div className="w-full h-full p-24 border border-red-400">
                             <div className="border h-full">
-                                <label></label>
-                                <input></input>
+                                <label>Name</label>
+                                <InputField placeholder="Name"></InputField>
                             </div>
                         </div>
                     </div>
