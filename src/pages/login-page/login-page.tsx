@@ -1,4 +1,5 @@
 import { InputField } from "../../mant-ui/input-fields/input-field";
+import { Label } from "../../mant-ui/labels/label";
 
 const  LoginPage =()=>{
     return(
@@ -8,7 +9,7 @@ const  LoginPage =()=>{
                     <div className="w-1/2 border">
                         <div className="w-full h-full p-24 border border-red-400">
                             <div className="border h-full">
-                                <label>Name</label>
+                                <Label className="text-xs">Name</Label>
                                 <InputField placeholder="Name"></InputField>
                             </div>
                         </div>
